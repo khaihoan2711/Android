@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.google.firebase.codelab.friendlychat">
+
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:name=".mvvm.App"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".mvvm.ui.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity android:name=".mvvm.ui.signin.SignInActivity" />
+
+    <activity android:name=".mvvm.ui.chat.ChatActivity" />
+
+    <service
+      android:exported="false"
+      android:name=".mvvm.serivce.MyFirebaseMessagingService">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+      </intent-filter>
+    </service>
+
+    <service
+      android:exported="false"
+      android:name=".mvvm.serivce.MyFirebaseInstanceIdService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+      </intent-filter>
+    </service>
+
+  </application>
+
+</manifest>
