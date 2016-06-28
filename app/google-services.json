@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "243492950706",
+    "firebase_url": "https://fpt-training.firebaseio.com",
+    "project_id": "fpt-training",
+    "storage_bucket": "fpt-training.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243492950706:android:b5d75907de594a2d",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243492950706-n20n3a7mpogf6on63gs2o6j2q7brrdar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.codelab.friendlychat",
+            "certificate_hash": "1ECCDAA93438495C779AE109BCD6204FEA319FB4"
+          }
+        },
+        {
+          "client_id": "243492950706-fgnh2hpccfqksu8p8v0olf9rjb9jfh4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.codelab.friendlychat",
+            "certificate_hash": "BF490CB902542D091586E2DF62BD919943365D6E"
+          }
+        },
+        {
+          "client_id": "243492950706-hi4bbt2lv9bsnjukqug152spoh01jj7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5XOY4BbqV77g2C0TZc0Kwh4yOkQAqSx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243492950706-hi4bbt2lv9bsnjukqug152spoh01jj7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
